@@ -1,3 +1,4 @@
+# README
 ## Project Title: Captain: 7 Seas
 ## Project Members: Noah Gibb, Kevin Fudge, Ruben Gonzalez
 ## Platform: VR
