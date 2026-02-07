@@ -1,6 +1,6 @@
 # README
 ## Project Title: Captain: 7 Seas
-## Project Members: Noah Gibb, Kevin Fudge, Ruben Gonzalez
+## Project Members: Noah Gibb, Kevin Fudge, Ruben Gonzalez, Kaylee Hernandez
 ## Platform: VR
 ## Hardware Requirements: Oculus Quest 2
 ## Target Audience: Anyone who likes pirates and combat
