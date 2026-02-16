@@ -1,0 +1,39 @@
+{
+  "name": "com.unity.xr.androidxr-openxr",
+  "displayName": "Unity OpenXR Android XR",
+  "version": "1.1.0",
+  "unity": "6000.0",
+  "unityRelease": "23f1",
+  "description": "Enables you to build mixed reality apps for Android XR devices by implementing support for Android XR extensions.",
+  "keywords": [
+    "openxr",
+    "google",
+    "android",
+    "xr",
+    "vr",
+    "mr",
+    "mixed",
+    "reality",
+    "virtual",
+    "arfoundation"
+  ],
+  "dependencies": {
+    "com.unity.xr.openxr": "1.15.1",
+    "com.unity.xr.arfoundation": "6.3.0",
+    "com.unity.xr.management": "4.5.0",
+    "com.unity.xr.hands": "1.6.1"
+  },
+  "_upm": {
+    "changelog": "### Changed\n- Updated the dependency version of the AR Foundation package to 6.3.0\n\n### Fixed\n- Restored XR Management package dependency (4.5.0) to ensure manifest changes are configured correctly for GameActivity.\n- Fixed the trailing space issue with \"android.hardware.xr.input.controller \" in AndroidManifest"
+  },
+  "upmCi": {
+    "footprint": "4f6e0e1d63d45116bcf6a0391a67ebec400d780d"
+  },
+  "documentationUrl": "https://docs.unity3d.com/Packages/com.unity.xr.androidxr-openxr@1.1/manual/index.html",
+  "repository": {
+    "url": "https://github.cds.internal.unity3d.com/unity/xr.sdk.androidxr-openxr.git",
+    "type": "git",
+    "revision": "7360d6020512b32275f70a54a0ef0858461b992c"
+  },
+  "_fingerprint": "06acef508aa49f1bf11c20a1de8d300cfdbf2906"
+}
