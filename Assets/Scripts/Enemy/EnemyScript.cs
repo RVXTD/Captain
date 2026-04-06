@@ -123,11 +123,6 @@ public class EnemyScript : MonoBehaviour
         }
 
         // If player is dead (your static flag), stop AI
-        if (PlayerHealth.PlayerIsDead)
-        {
-            StopAgentAndAnim();
-            return;
-        }
 
         // Player may be destroyed/recreated after restarting scene → reacquire
         if (player == null)
@@ -315,7 +310,6 @@ public class EnemyScript : MonoBehaviour
     private void AttackTick(float distanceToPlayer)
     {
         if (player == null) return;
-        if (PlayerHealth.PlayerIsDead) return;
 
         Face(player.position);
         TryAttack();
@@ -326,7 +320,7 @@ public class EnemyScript : MonoBehaviour
 
     private void TryAttack()
     {
-        if (PlayerHealth.PlayerIsDead) return;
+
 
         if (Time.time >= lastAttackTime + timeBetweenAttacks)
         {
@@ -340,7 +334,7 @@ public class EnemyScript : MonoBehaviour
     {
         yield return new WaitForSeconds(attackWindupTime);
 
-        if (isDead || PlayerHealth.PlayerIsDead) yield break;
+
 
         if (player != null)
         {
