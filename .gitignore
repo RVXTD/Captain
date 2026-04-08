@@ -97,3 +97,11 @@ InitTestScene*.unity*
 
 # Auto-generated scenes by play mode tests
 /[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+
+# Asset meta data should only be ignored when the corresponding asset is also ignored
+# This line ensures meta files in your Assets folder are NOT ignored by default
+!/[Aa]ssets/**/*.meta
